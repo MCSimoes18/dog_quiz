@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Puppy Finder</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+	"Take my quiz to find out which foster dog is right for you!"
+	"Or you can just browse all dogs" 
+
+<form>
+
+ <div class="questionAge">
+        <p><strong>Q1</strong>: Do you want a puppy or an older dog?</p>
+        <label>
+            <input type="radio" class="question1" id="ageChoice1" name="one" value = "puppy">Puppy</label>
+        <label>
+            <input type="radio" class="question1" id="ageChoice2" name="one" value = "old"> Older Dog</label>
+
+			</div>
+		</div>
+
+ <div class="questionTemper">
+        <p><strong>Q2</strong>: Do you want a calm or playful dog?</p>
+        <label>
+            <input type="radio" class="question2" id="temperChoice1" name="two" value = "calm">Calm</label>
+        <label>
+            <input type="radio" class="question2" id="temperChoice2" name="two" value = "playful"> Playful</label>
+
+			</div>
+		</div>
+
+
+ <div class="questionFur">
+        <p><strong>Q3</strong>: Do you want a Long Hair or Short Hair Dog?</p>
+        <label>
+            <input type="radio" class="question3" id="furChoice1" name="three" value = "long">Long Hair</label>
+        <label>
+            <input type="radio" class="question3" id="furChoice2" name="three" value = "short"> Short Hair</label>
+
+			</div>
+		    <button type="submit">Submit</button>
+</form>
+<div id="result"></div>
+<pre id="log">
+</pre>
+
+		<script type="text/javascript" src="dogs.js"></script>
+
+</body>
+</html>
