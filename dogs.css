@@ -1,0 +1,81 @@
+
+h3 {
+	font-family: 'Indie Flower', cursive;
+	margin-left: 1.66;
+	font-size:40px;
+	font-weight: 400;
+	text-transform:uppercase;
+	border-bottom: 5px solid red;
+	width: 25%;
+}
+
+#about{
+font-family: 'Indie Flower', cursive;
+
+}
+
+.questionAge{
+	font-family: 'Indie Flower', cursive;
+
+}
+
+.questionFur{
+	font-family: 'Indie Flower', cursive;
+}
+
+.questionTemper{
+	font-family: 'Indie Flower', cursive;
+}
+
+#ren {
+	display: none;
+	width: 25%;
+	height: 25%;
+}
+
+#murphy {
+	display: none;
+	width: 25%;
+	height: 25%;
+}
+#millie {
+	display: none;
+	width: 25%;
+	height: 25%;
+}
+
+#penelope {
+	display: none;
+	width: 25%;
+	height: 25%;
+}
+
+#kilian {
+	display: none;
+	width: 25%;
+	height: 25%;
+}
+
+#athena {
+	display: none;
+	width: 25%;
+	height: 25%;
+}
+
+#dobby {
+	display: none;
+	width: 25%;
+	height: 25%;
+}
+
+#zucchini {
+	display: none;
+	width: 25%;
+	height: 25%;
+}
+
+
+
+.result-text {
+	font-family: 'Indie Flower', cursive;
+}

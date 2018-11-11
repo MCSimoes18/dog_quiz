@@ -2,18 +2,22 @@
 <html>
 <head>
 	<title>Puppy Finder</title>
+	<link rel="stylesheet" type="text/css" href="dogs.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 <body>
 
-	"Take my quiz to find out which foster dog is right for you!"
-	"Or you can just browse all dogs" 
+	<div id ="about">
+	<h3> PUPPY FINDER </h3>
+
+	<p> I am a dog-lover and would love to see all dogs in the shelter find a fur-ever home. Right now, this quiz is just a method for me to practice coding. All of the dogs are already adopted :) I do hope to build upon this concept as I continue to gain coding experience. I would love to one day team up with shelters and humane societies to actually help real dogs find homes. <p>
+ </div>
 
 <form>
 
  <div class="questionAge">
-        <p><strong>Q1</strong>: Do you want a puppy or an older dog?</p>
+        <p><strong>1: Do you want a puppy or an older dog? </strong> </p>
         <label>
             <input type="radio" class="question1" id="ageChoice1" name="one" value = "puppy">Puppy</label>
         <label>
@@ -23,7 +27,7 @@
 		</div>
 
  <div class="questionTemper">
-        <p><strong>Q2</strong>: Do you want a calm or playful dog?</p>
+        <p><strong>2: Do you want a calm or playful dog?</strong> </p>
         <label>
             <input type="radio" class="question2" id="temperChoice1" name="two" value = "calm">Calm</label>
         <label>
@@ -34,7 +38,7 @@
 
 
  <div class="questionFur">
-        <p><strong>Q3</strong>: Do you want a Long Hair or Short Hair Dog?</p>
+        <p><strong>3: Do you want a Long Hair or Short Hair Dog? </strong>?</p>
         <label>
             <input type="radio" class="question3" id="furChoice1" name="three" value = "long">Long Hair</label>
         <label>
@@ -42,6 +46,15 @@
 
 			</div>
 		    <button type="submit">Submit</button>
+		    <br>
+		    <img src="ren.jpg" id="ren"></img>
+		    <img src="millie.jpg" id="millie"></img>
+		    <img src="penelope.jpg" id="penelope"></img>
+		    <img src="murphy.jpg" id="murphy"></img>
+		    <img src="athena.jpg" id="athena"></img>
+		    <img src="kilian.jpg" id="kilian"></img>
+		    <img src="dobby.jpg" id="dobby"></img>
+		    <img src="zucchini.jpg" id="zucchini"></img>
 </form>
 <div id="result"></div>
 <pre id="log">
